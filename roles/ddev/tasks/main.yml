@@ -1,0 +1,4 @@
+- name: Install DDEV
+  homebrew:
+    name: drud/ddev/ddev
+    state: present

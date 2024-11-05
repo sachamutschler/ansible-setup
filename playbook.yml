@@ -1,0 +1,8 @@
+- name: Local environment setup
+  hosts: localhost
+  become: true
+  roles:
+    - homebrew
+    - git
+    - gitflow
+    - ddev

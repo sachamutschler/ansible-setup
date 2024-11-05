@@ -1,0 +1,4 @@
+- name: Install GitFlow
+  homebrew:
+    name: git-flow
+    state: present
