@@ -1,6 +1,6 @@
 - name: Local environment setup
   hosts: localhost
-  become: true
+  become: false
   roles:
     - homebrew
     - git
