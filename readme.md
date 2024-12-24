@@ -3,7 +3,7 @@
 #1 - Requirements : (Ansible)
 Command to install Ansible with python installed by default on Mac :
 ```bash
-python3 -m pip install --user ansible
+sudo -H pip3 install ansible
 ```
 
 #2 - Clone the project
